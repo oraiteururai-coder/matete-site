@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["AX7HMMZYD6.com.example.matete"],
+        "components": [
+          {
+            "/": "/auth/*",
+            "comment": "Liens d'authentification : réinitialisation, confirmation d'inscription, changement d'adresse."
+          }
+        ]
+      }
+    ]
+  }
+}
