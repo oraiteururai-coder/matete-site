@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>matete — la marketplace polynésienne</title>
+<meta name="description" content="matete, les petites annonces de Polynésie française. Achetez et vendez près de chez vous.">
+<style>
+  :root {
+    --surface: #F8F5EE;
+    --raised: #FFFFFF;
+    --ink: #1A1A1A;
+    --ink-soft: #7C7870;
+    --coral: #C66B53;
+    --lagoon: #5E9B96;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background: var(--surface);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+  }
+  .carte {
+    background: var(--raised);
+    border-radius: 20px;
+    padding: 44px 32px;
+    max-width: 480px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 2px 24px rgba(26, 26, 26, 0.06);
+  }
+  .marque { font-size: 40px; font-weight: 700; letter-spacing: -1px; margin: 0 0 6px; }
+  .baseline { font-size: 15px; color: var(--lagoon); font-weight: 600; margin: 0 0 26px; }
+  p { font-size: 16px; color: var(--ink-soft); margin: 0 0 18px; }
+  .pied { font-size: 13px; color: var(--ink-soft); margin: 30px 0 0; }
+  a { color: var(--coral); }
+</style>
+</head>
+<body>
+  <main class="carte">
+    <p class="marque">matete</p>
+    <p class="baseline">Le marché de Polynésie, dans ta poche.</p>
+    <p>
+      matete est une application de petites annonces pour la Polynésie française.
+      On y vend et on y achète près de chez soi, en discutant directement
+      avec l'autre personne.
+    </p>
+    <p>L'application arrive bientôt sur iPhone et Android.</p>
+    <p class="pied">
+      Une question ? Écris-nous à <a href="mailto:contact@matete.store">contact@matete.store</a>
+    </p>
+  </main>
+</body>
+</html>
