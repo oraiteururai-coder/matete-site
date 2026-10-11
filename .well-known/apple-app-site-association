@@ -2,7 +2,7 @@
   "applinks": {
     "details": [
       {
-        "appIDs": ["AX7HMMZYD6.com.example.matete"],
+        "appIDs": ["AX7HMMZYD6.pf.matete.app"],
         "components": [
           {
             "/": "/auth/*",
